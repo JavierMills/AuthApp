@@ -1,0 +1,16 @@
+<body class="container">
+
+    <h1>Dashboard</h1>
+    <div class="divicion"></div>
+    <div class="centro">
+
+        <p style="color: white;">Esta pagina solo funciona si estas autenticado</p>
+
+        <h4>User info</h4>
+        <pre>{{ usuario | json}}</pre>
+    </div>
+
+    <button class="boton" (click)="logout()">Logout</button>
+
+</body>
+

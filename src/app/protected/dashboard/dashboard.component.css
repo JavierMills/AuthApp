@@ -1,0 +1,33 @@
+body {
+  padding: 20spx;
+  background-color: #1F242F;
+  color: white;
+}
+
+.divicion {
+  height: 10px;
+  background-image: linear-gradient(to right, #3ab564 0, #2d5ba8 25%, #61269e 50%, #f6303f 75%, #ffc525 100%)
+}
+
+.centro {
+  color: white;
+  content: ' ';
+  top: 50%;
+  position: fixed;
+  right: 40%;
+  border: 1px white solid;
+  padding: 2px;
+
+
+}
+
+.boton{
+  content: ' ';
+  top: 30%;
+  position: fixed;
+  right: 45%;
+  padding: 20px;
+  border-radius: 25px;
+  width: 500px;
+  background: linear-gradient(to right, #3ab564 0, #2d5ba8 25%, #61269e 50%, #f6303f 75%, #ffc525 100%);
+}
